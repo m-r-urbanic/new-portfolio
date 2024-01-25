@@ -6,6 +6,9 @@ function contact() {
     const [emailAddress, setEmailAddress] = useState('');
     const [message, setMessage] = useState('');
 
+// handle input change
+
+// handle submit   
 
 }
 
