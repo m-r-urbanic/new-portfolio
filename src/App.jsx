@@ -1,12 +1,15 @@
 import './App.css';
-import BucketList from './components/BucketList';
+import Tabs from './components/tabs';
 
 function App() {
-  return (
-    <div className="bucket-app">
-      <BucketList />
-    </div>
-  );
+    return (
+        <>
+        <Tabs />
+        <main className="mx-3">
+          <Outlet />
+        </main>
+      </>
+    );
 }
 
 export default App;
