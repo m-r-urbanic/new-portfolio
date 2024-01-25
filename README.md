@@ -5,7 +5,7 @@ This is a portfolio of the work I have done in the bootcamp.
 Finish wording here
 
 # Credits
-All code used or referenced is from bootcamp curriculum.
+All code used or referenced is from bootcamp curriculum or written by myself.
 
 # Image Credits
 Photo by Mikhail Nilov: https://www.pexels.com/photo/a-laptop-and-calculator-on-a-wooden-table-6963055/
