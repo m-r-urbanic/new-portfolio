@@ -5,6 +5,7 @@
     --light-grey: #adadad;
     --white: #ffffff;
     --black: #000000;
+    --light-green: #056E55;
 }
 
 /* Center the main image and make it change size as the page grows or shrinks */
@@ -138,6 +139,10 @@ p {
 /* Set h3, the subheader used for individual sections, to sea green */
 h3 {
     color: Var(--sea-green)
+}
+
+h1 {
+    color:Var(--light-green)
 }
 
 img{

@@ -28,7 +28,7 @@ function Contact() {
   const handleFormSubmit = (e) => {
 
     e.preventDefault();
-    alert(`Hello ${Name} ${Email} ${Message}`);
+    alert(`You have submitted the following information: ${Name} ${Email} ${Message}`);
     setName('');
     setEmail('');
     setMessage('');
@@ -37,7 +37,7 @@ function Contact() {
   return (
     <div className="container text-center">
       <h1>
-        TEST {Name} {Email} {Message}
+        Contact Me:
       </h1>
       <form className="form" onSubmit={handleFormSubmit}>
         <input
