@@ -1,15 +1,10 @@
-import { useState } from 'react';
-
-function contact() {
-
-    const [name, setName] = useState('');
-    const [emailAddress, setEmailAddress] = useState('');
-    const [message, setMessage] = useState('');
-
-// handle input change
-
-// handle submit   
-
+export default function Contact() {
+  return (
+    <div>
+      <h1>Contact Page</h1>
+      <p>
+        Insert Form Here
+      </p>
+    </div>
+  );
 }
-
-export default contact;
