@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import './style.css';
 
 function Contact() {
   const [Name, setName] = useState('');
@@ -53,7 +54,7 @@ function Contact() {
           type="text"
           placeholder="Email"
         />
-        <input
+        <input className="message"
           value={Message}
           name="Message"
           onChange={handleInputChange}

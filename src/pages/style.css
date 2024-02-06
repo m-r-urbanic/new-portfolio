@@ -79,6 +79,31 @@
     text-align: left; 
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+  
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 500px;
+}
+
+.message{
+    height: 100px;
+}
+  
+input {
+    margin-bottom: 10px; 
+}
+  
+button {
+    margin-top: 10px; 
+}
+
 
 /* Define the properties of each section */
 section {

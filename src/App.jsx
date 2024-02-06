@@ -6,8 +6,10 @@ function App() {
   // The Outlet component will conditionally swap between the different pages according to the URL
   return (
     <>
+
       <Nav />
       <main className="mx-3">
+        <style>{'body { background-color: #ACD7E6; }'}</style>
         <Outlet />
       </main>
     </>
