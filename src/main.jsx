@@ -6,10 +6,10 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 
 import App from './App.jsx';
 import Error from './pages/Error.jsx';
-import About from './pages/About.jsx';
-import Contact from './pages/Contact.jsx';
-import Resume from '/src/pages/Resume.jsx';
-import Portfolio from '/src/pages/Portfolio.jsx';
+import About from './pages/about.jsx';
+import Contact from './pages/contact.jsx';
+import Resume from './pages/resume.jsx';
+import Portfolio from './pages/portfolio.jsx';
 
 // Define the accessible routes, and which components respond to which URL
 const router = createBrowserRouter([
