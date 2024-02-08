@@ -1,0 +1,20 @@
+Madeline Urbanic
+
+Education:
+College 2016-2020
+University of Richmond Coding Bootcamp 2024
+
+Work History:
+Fake Job 2020-Present
+-Pet cats
+-Voluneered at the animal shelter
+
+Data Work 2016-2020
+-Scrubbed Data
+-Created a positive work environment
+
+Technologies
+-HTML
+-JavaScript
+-MongoDB
+-MySQL
