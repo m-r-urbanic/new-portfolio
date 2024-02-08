@@ -9,7 +9,7 @@ import Error from './pages/Error';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Resume from './pages/Resume';
-import Portfolio from './pages/Portfolio';
+import Portfolio from './pages/portfolio';
 
 // Define the accessible routes, and which components respond to which URL
 const router = createBrowserRouter([
