@@ -1,0 +1,159 @@
+/* Define colors that will be used throughout the webpage */
+:root {
+    --sea-green: #044258;
+    --bright-green: #03dde4;
+    --light-grey: #adadad;
+    --white: #ffffff;
+    --black: #000000;
+    --light-green: #056E55;
+}
+
+/* Center the main image and make it change size as the page grows or shrinks */
+.main-image{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Make the sub-images circles */
+.sub-img {
+    border-radius:50%;
+}
+
+/* Make my profile picture circle */
+.self {
+    border-radius:50%;
+}
+
+/* Create the flexbox for the smaller images */
+.work-rows{
+    display: flex;
+    flex-wrap: wrap;
+    /* Add space on all sides of the content */
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+/* Aligning text over image */
+.img-holder, .img-holder-2 {
+    position: relative; 
+    display: inline-block;
+}
+
+/* Define the text position used by all image lables */
+.img-holder h4, .img-holder p, .img-holder-2 h4, .img-holder-2 p {
+    position: absolute; 
+    right: 0; 
+    transform: translate(0, -50%); 
+    color: var(--white); 
+    text-shadow: 0 0 5px var(--black);
+}
+
+/* Define the text position small images */
+.img-holder h4 {
+    /* distance from the top and left of the image */
+    top: 75%; 
+    left: 0; 
+    text-align: center; 
+}
+
+/* Define the text position small images */
+.img-holder p {
+    /* distance from the top and left of the image */
+    top: 90%; 
+    left: 0; 
+    text-align: center; 
+}
+
+/* Define the text position large image */
+.img-holder-2 h4 {
+    /* distance from the top and left of the image */
+    top: 82%; 
+    left: 2%; 
+    text-align: left; 
+}
+
+/* Define the text position large image */
+.img-holder-2 p {
+    /* distance from the top and left of the image */
+    top: 90%; 
+    left: 2%; 
+    text-align: left; 
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+  
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 500px;
+}
+
+.message{
+    height: 100px;
+}
+  
+input {
+    margin-bottom: 10px; 
+}
+  
+button {
+    margin-top: 10px; 
+}
+
+
+/* Define the properties of each section */
+section {
+    /* Set the thickness of the section margins such that the top margin is the same as the bottom margin */
+    margin: 1rem 0 1rem 0;
+
+    /* Add padding so that the text looks good inside of the box, more padding from the sides than from the top and bottom */
+    padding: .5rem 1.5rem;
+
+    /* Create a solid border, do not define color, color will be set by section type */
+    border: 2px solid Var(--sea-green);
+
+    /* Make each section a flexbox */
+    display:flex;
+    
+    /* Set flex direction */
+    flex-direction:column;
+}
+
+/* Change subheader color to light grey and remove the underline from the navegation bar */
+a {
+    color: var(--light-grey);
+    text-decoration: none;
+}
+
+/* Move the paragraph text closer to the section title */
+p {    
+    /* Move text up */
+    margin-top: -10px;
+}
+
+/* Set h3, the subheader used for individual sections, to sea green */
+h3 {
+    color: Var(--sea-green)
+}
+
+h1 {
+    color:Var(--light-green)
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+/* Set images other than the profile image to change color and have a dropshadow around it */
+.main-image:hover, .sub-img:hover {
+    /* Add shaddow when you hover over it */
+    box-shadow: inset 0px 0px 8px var(--bright-green), 0 0 15px var(--bright-green);
+    /* Saturate image when you hover over it */
+    filter: saturate(7);
+}
