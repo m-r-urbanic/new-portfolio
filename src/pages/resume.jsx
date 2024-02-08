@@ -26,6 +26,10 @@ export default function Resume() {
         <p>
             HTML, JavaScript, MongoDB, MySQL
         </p>
+
+        <a href="https://raw.githubusercontent.com/m-r-urbanic/new-portfolio/main/src/assets/images/moon.jpg" download="moon.jpg">
+        <button type="button">Download</button>
+        </a>
 </div>
   );
 }

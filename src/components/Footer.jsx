@@ -1,9 +1,12 @@
 function Footer() {
   return (
     <footer>
-    <h5 style={{ marginLeft: '20px', marginTop: '30px', color: '#C0F3E7' }} class="footer-class">Made by Madeline</h5>
+    <li style={{ marginLeft: '20px', marginTop: '30px', color: 'grey' }} class="footer-class" href="url">Github</li> 
+    <li style={{ marginLeft: '20px', marginTop: '30px', color: 'grey' }} class="footer-class" href="url">LinkedIn</li> 
+    <li style={{ marginLeft: '20px', marginTop: '30px', color: "grey" }} class="footer-class" href="url">Twitter</li> 
     </footer>
   );
 }
+
 
 export default Footer;
