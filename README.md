@@ -8,7 +8,7 @@ This project can be viewed by navigating to the provided link.
 
 # Usage
 Please follow the link below to see my portfolio!
-
+https://main--funny-heliotrope-d37444.netlify.app/
 
 
 # Credits
