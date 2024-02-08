@@ -16,18 +16,18 @@ export default function Portfolio() {
     </figure>
     <figure class="work-rows">
         <div class="img-holder">
-            <a href="https://www.pexels.com/photo/a-laptop-and-calculator-on-a-wooden-table-6963055/">
+            <a href="https://github.com/m-r-urbanic/1-Refactor-HTML">
                 <img class="sub-img" src="https://raw.githubusercontent.com/m-r-urbanic/new-portfolio/main/src/assets/images/calculator.jpg" alt="A black calculator sits on top of a laptop, which is on top of a desk. When the mouse hovers over the image, the image gets brighter." />
             </a>
-            <h4>Calculator Application</h4>
-            <p>HTML/CSS/JavaScript</p>
+            <h4>Refactor Webpage</h4>
+            <p>HTML/CSS</p>
         </div>
         <div class="img-holder">
-            <a href="https://www.pexels.com/photo/waxing-moon-crescent-in-black-night-sky-18051705/">
+            <a href="https://github.com/m-r-urbanic/3-Generate-Password?tab=readme-ov-file">
                 <img class="sub-img" src="https://raw.githubusercontent.com/m-r-urbanic/new-portfolio/main/src/assets/images/moon.jpg" alt="Half of a moon is visable on a black background. When the mouse hovers over the image, the image gets brighter." />
             </a>
-            <h4>Moon Phases</h4>
-            <p>MERN Stack</p>
+            <h4>Generate Password</h4>
+            <p>HTML/CSS/JavaScript</p>
         </div>
     </figure>
     <figure class="work-rows">
@@ -39,11 +39,18 @@ export default function Portfolio() {
             <p>MERN Stack</p>
         </div>
         <div class="img-holder">
-            <a href="https://www.pexels.com/photo/body-of-water-beside-beach-sand-386148/">
+            <a href="https://github.com/m-r-urbanic/4-Practice-Quiz">
                 <img class="sub-img" src="https://raw.githubusercontent.com/m-r-urbanic/new-portfolio/main/src/assets/images/tides.jpg" alt="The image shows waves crashing onto a shoreline. The ocean is at the top of the photo, and the sand is at the bottom. When the mouse hovers over the image, the image gets brighter."/>
             </a>
-            <h4>Tide Tracker</h4>
-            <p>Node</p>
+            <h4>Practice Quiz</h4>
+            <p>HTML/CSS/JavaScript</p>
+        </div>
+        <div class="img-holder">
+            <a href="https://github.com/m-r-urbanic/Day-Planner">
+                <img class="sub-img" src="https://raw.githubusercontent.com/m-r-urbanic/new-portfolio/main/src/assets/images/calculator.jpg" alt="The image shows waves crashing onto a shoreline. The ocean is at the top of the photo, and the sand is at the bottom. When the mouse hovers over the image, the image gets brighter."/>
+            </a>
+            <h4>Day Planner</h4>
+            <p>HTML/CSS/JavaScript</p>
         </div>
     </figure>
 </section>
