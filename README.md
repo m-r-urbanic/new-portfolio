@@ -12,7 +12,7 @@ https://main--funny-heliotrope-d37444.netlify.app/
 
 
 # Credits
-All code used or referenced is from bootcamp curriculum, written by myself, from netlify documentation, or from the URLs below.
+All code used or referenced is from bootcamp curriculum, written by myself for prior assignments, from netlify documentation, or from the URLs below.
 
 https://www.geeksforgeeks.org/how-to-stack-elements-in-css/
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch
