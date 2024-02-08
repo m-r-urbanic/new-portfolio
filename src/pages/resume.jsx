@@ -27,7 +27,7 @@ export default function Resume() {
             HTML, JavaScript, MongoDB, MySQL
         </p>
 
-        <a href="https://raw.githubusercontent.com/m-r-urbanic/new-portfolio/main/src/assets/images/moon.jpg" download="moon.jpg">
+        <a href="https://raw.githubusercontent.com/m-r-urbanic/new-portfolio/main/src/assets/images/resume.txt" download="resume.txt">
         <button type="button">Download</button>
         </a>
 </div>
