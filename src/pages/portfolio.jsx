@@ -16,18 +16,18 @@ export default function Portfolio() {
     </figure>
     <figure class="work-rows">
         <div class="img-holder">
-            <a href="https://github.com/m-r-urbanic/1-Refactor-HTML">
-                <img class="sub-img" src="https://raw.githubusercontent.com/m-r-urbanic/new-portfolio/main/src/assets/images/calculator.jpg" alt="A black calculator sits on top of a laptop, which is on top of a desk. When the mouse hovers over the image, the image gets brighter." />
+            <a href="https://evening-bayou-27842-7c07f7bcdf4b.herokuapp.com/Links">
+                <img class="sub-img" src="https://raw.githubusercontent.com/m-r-urbanic/new-portfolio/main/src/assets/images/Calendata.jpg" alt="A purple calendar app." />
             </a>
-            <h4>Refactor Webpage</h4>
-            <p>HTML/CSS</p>
+            <h4>Calendata</h4>
+            <p>HTML/CSS/JavaScript/MySQL</p>
         </div>
         <div class="img-holder">
-            <a href="https://github.com/m-r-urbanic/3-Generate-Password?tab=readme-ov-file">
-                <img class="sub-img" src="https://raw.githubusercontent.com/m-r-urbanic/new-portfolio/main/src/assets/images/moon.jpg" alt="Half of a moon is visable on a black background. When the mouse hovers over the image, the image gets brighter." />
+            <a href="https://blooming-ocean-21815-ee46d2ed87a5.herokuapp.com/">
+                <img class="sub-img" src="https://raw.githubusercontent.com/m-r-urbanic/new-portfolio/main/src/assets/images/fight.jpg" alt="A large fight my dad logo." />
             </a>
             <h4>Generate Password</h4>
-            <p>HTML/CSS/JavaScript</p>
+            <p>MERN</p>
         </div>
     </figure>
     <figure class="work-rows">
